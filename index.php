@@ -2,7 +2,7 @@
 
 
 
-include_once("make_resume_responsive.html");
+include_once("index.html");
 
 
 
