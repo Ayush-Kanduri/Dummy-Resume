@@ -1,9 +1,10 @@
-var scrolledBar = document.getElementById("scrolled");
-var temp = 0;
+let progressBar = document.getElementsByClassName("scroll-progress-bar")[0];
+let scrolledBar = document.getElementById("scrolled");
+let temp = 0;
 
 // This function will return the maximum of the following
 function getDocHeight() {
-	var D = document;
+	let D = document;
 	return Math.max(
 		D.body.scrollHeight,
 		D.body.offsetHeight,
@@ -11,8 +12,8 @@ function getDocHeight() {
 	);
 }
 
-var docHeight = getDocHeight();
-var windowHeight = window.innerHeight;
+let docHeight = getDocHeight();
+let windowHeight = window.innerHeight;
 
 window.onresize = function (e) {
 	docHeight = getDocHeight();
@@ -20,13 +21,14 @@ window.onresize = function (e) {
 };
 
 function setScrolled() {
-	var scrolled = Math.floor(
+	let scrolled = Math.floor(
 		(window.scrollY / (docHeight - windowHeight)) * 100
 	);
 	if (scrolled === 99) {
 		scrolled = 100;
 	}
 	scrolledBar.innerText = scrolled;
+	progressBar.style.width = Math.floor(scrolled) + "%";
 }
 
 window.addEventListener("scroll", setScrolled);

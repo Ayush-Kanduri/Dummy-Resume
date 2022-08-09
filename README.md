@@ -1,44 +1,75 @@
-# Responsive-Resume-Webpage
-This is a Responsive Resume Webpage App using Javascript. This was a part of my Coding Ninjas Assignment Project.
+# 𝐃𝐮𝐦𝐦𝐲 𝐑𝐞𝐬𝐮𝐦𝐞 𝐖𝐞𝐛𝐬𝐢𝐭𝐞 🚀
 
-## Tools Used
-<p align="left">
-<img height="140" width="140" src="https://ps.w.org/display-php-version/assets/icon-256x256.png?rev=2075378">
+<br/>
+<p align="center">
+<img height="400" width="800" src="https://user-images.githubusercontent.com/76626529/183624735-e2af1e6e-0116-46e7-85b9-a4f79cd627eb.png">
+</p>
+
+## ⭐ Introduction
+
+This is a Dummy Responsive Resume Website built using HTML, CSS, Javascript. This was a part of my online course Front End Assignment.
+
+-  Users are able to visit different sections on the Resume Webpage.
+-  Users are able to view how much '%' of the website have been scrolled or visited with the help of a Progress Bar & a Counter.
+   <br/>
+   <br/>
+
+## 🔥 Getting Started With The Project
+
+-  Fork the Project in your Repository.
+-  Clone the Forked Repository in your Local System.
+-  Run on Live Server.
+-  Enjoy :)
+
+For any issues related to the project, raise an ISSUE in the respective Repository.
+<br/>
+<br/>
+
+## 🔨 Tools Used
+
+<p align="justify">
 <img height="140" width="140" src="https://www.w3.org/html/logo/downloads/HTML5_Logo_256.png">
 <img height="140" width="140" src="https://logodix.com/logo/470309.png">
 <img height="140" width="140" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png">
 <img height="140" width="140" src="https://code.visualstudio.com/assets/apple-touch-icon.png">
 </p>
 
-* Library: None
-* Scripting: Javascript, (PHP for Deploying the Application only on Heroku)
-* Front-End: HTML, CSS
-* Runtime Environment: None
-* Integrated Development Environment: VSCode
+-  Version Control System: Git
+-  VCS Hosting: GitHub
+-  Programming / Scripting: JavaScript
+-  Front-End: HTML, CSS
+-  Integrated Development Environment: VSCode
+   <br/>
+   <br/>
 
-#
-> #### Checkout the Website [Web Application](https://responsive-resume-project.herokuapp.com/)
-> #### Checkout the Application Demo Video [YouTube](https://youtu.be/igIZFXoryAM)
-#
+## 🔗 Links
 
-## Screens
-<p align="left">
-<img height="400" width="600" src="https://user-images.githubusercontent.com/76626529/150650936-b37dc6e3-c807-44f9-b3e4-0a31a2ca0ea5.png">
-<img height="400" width="600" src="https://user-images.githubusercontent.com/76626529/150650891-7709fae7-aadc-4141-9196-038f289a25fe.png">
-<img height="400" width="600" src="https://user-images.githubusercontent.com/76626529/150650892-9ae1ab63-d4cc-43b7-ae8c-772c71f74e83.png">
-<img height="400" width="600" src="https://user-images.githubusercontent.com/76626529/150650893-022c03c7-fa14-4f95-abd6-6f651fc70123.png">
-<img height="400" width="600" src="https://user-images.githubusercontent.com/76626529/150650894-34781aec-8e89-435f-8526-afedc7327dcc.png">
-<img height="400" width="600" src="https://user-images.githubusercontent.com/76626529/150650903-e8a9385b-a1a2-42c2-85ab-19bc6dbea84a.png">
+> ## Checkout the Website [Web Application]()
+>
+> ## Checkout the Application Demo Video [YouTube](https://youtu.be/igIZFXoryAM)
+
+<br/>
+
+## 💻 Screens
+
+<p align="justify">
+<img height="400" width="600" src="https://user-images.githubusercontent.com/76626529/183626684-c98a7647-cb43-485f-aea2-dce70bf81e37.png">
+<img height="400" width="600" src="https://user-images.githubusercontent.com/76626529/183626686-c35858fe-5e8f-4721-be41-eb2df6215dbb.png">
+<img height="400" width="600" src="https://user-images.githubusercontent.com/76626529/183626687-185e1115-2050-4b9b-81c9-250520d24c7b.png">
+<img height="400" width="600" src="https://user-images.githubusercontent.com/76626529/183626692-bb0675e2-3422-41d8-b1c4-bafb20142d32.png">
+<img height="400" width="600" src="https://user-images.githubusercontent.com/76626529/183626693-819ea9fd-99d5-4e04-9630-f3004b382477.png">
+<img height="400" width="600" src="https://user-images.githubusercontent.com/76626529/183626676-9e3ea98a-182d-48eb-aa4d-4a0d3490af22.png">
 </p>
+<br/>
 
-## Follow me on:
+## 🐦 Follow Me:
+
 > [Dev Community](https://dev.to/ayushkanduri)
 
 > [Twitter](https://twitter.com/ayush_codes)
- 
+
 > [LinkedIn](https://www.linkedin.com/in/ayushkanduri/)
 
 > [YouTube](https://www.youtube.com/channel/UC6c1ajC_2jF7wQp7Y13t2bg)
 
 I hope you like the project. Thanks for reading :)
-

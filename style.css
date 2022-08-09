@@ -1,7 +1,13 @@
 body {
-	margin: 0px;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 	font-family: sans-serif;
+	font-family: "Roboto", sans-serif;
 	font-size: 30px;
+	width: 100vw;
+	height: 100vh;
+	position: relative;
 }
 
 body::-webkit-scrollbar {
@@ -11,6 +17,7 @@ body::-webkit-scrollbar {
 /* Body Header */
 
 #body-header {
+	width: 100%;
 	height: 65vh;
 	opacity: 0.8;
 	background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
@@ -18,6 +25,11 @@ body::-webkit-scrollbar {
 	background-position: center;
 	background-attachment: fixed;
 	padding-top: 1.2rem;
+}
+
+/* Main */
+main {
+	width: 100%;
 }
 
 /* Horizontal Lists */
@@ -544,21 +556,52 @@ button:focus {
 	width: 50%;
 }
 
-@media only screen and (max-width: 572px) {
-	.timeline-box {
-		width: 100%;
-		left: 10% !important;
-	}
-
-	.bars {
-		display: block;
-	}
-
-	.nav-menu {
-		display: none;
-	}
+/* Scroll Progress */
+.scroll-progress {
+	height: 10px;
+	width: 100%;
+	background-color: #000;
+	z-index: 50;
+	position: fixed;
+	top: 0%;
+	left: 0%;
 }
 
+.scroll-progress-bar {
+	transition: width 0.15s linear;
+	background: #03c4a1;
+	height: 100%;
+	width: 0%;
+}
+
+/* Scroll Progress Count */
+#scroll-progress-count {
+	position: fixed;
+	top: 13%;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 1rem;
+	height: 30px;
+	width: 8rem;
+	background-color: transparent;
+	text-align: center;
+	color: #000;
+	border: 2px solid #000;
+	border-radius: 14px;
+	box-shadow: 0px 0px 7px 0px rgba(230, 196, 196, 1);
+	z-index: 50;
+	word-wrap: break-word;
+	word-break: break-all;
+	padding: 0.3rem 0.7rem;
+}
+#scroll-progress-count span {
+	line-height: 30px;
+}
+#scrolled {
+	font-size: 1.3rem;
+}
+
+/* Responsive Media Queries */
 @media only screen and (max-width: 768px) {
 	.timeline-box {
 		width: 90%;
@@ -593,44 +636,17 @@ button:focus {
 	}
 }
 
-/* Scroll Progress */
-.scroll-progress {
-	height: 10px;
-	width: 100%;
-	background-color: #000;
-	z-index: 50;
-	position: fixed;
-	top: 0%;
-	left: 0%;
-}
+@media only screen and (max-width: 572px) {
+	.timeline-box {
+		width: 100%;
+		left: 10% !important;
+	}
 
-.scroll-progress-bar {
-	transition: width 0.15s linear;
-	background: #03c4a1;
-	height: 100%;
-	width: 0%;
-}
+	.bars {
+		display: block;
+	}
 
-/* Scroll Progress Count */
-#scroll-progress-count {
-	position: fixed;
-	top: 1vw;
-	right: 1vw;
-	font-size: 1rem;
-	height: 30px;
-	width: 10vw;
-	background-color: transparent;
-	text-align: center;
-	color: #000;
-	border-radius: 20px;
-	box-shadow: 0px 0px 20px grey, 0px 0px 5px #000;
-	z-index: 50;
-	word-wrap: break-word;
-	word-break: break-all;
-}
-#scroll-progress-count span {
-	line-height: 30px;
-}
-#scrolled {
-	font-size: 1.3rem;
+	.nav-menu {
+		display: none;
+	}
 }
