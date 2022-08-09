@@ -44,7 +44,7 @@ For any issues related to the project, raise an ISSUE in the respective Reposito
 
 ## 🔗 Links
 
-> ## Checkout the Website [Web Application]()
+> ## Checkout the Website [Web Application](https://ayush-kanduri.github.io/Dummy-Resume/)
 >
 > ## Checkout the Application Demo Video [YouTube](https://youtu.be/igIZFXoryAM)
 
@@ -53,12 +53,12 @@ For any issues related to the project, raise an ISSUE in the respective Reposito
 ## 💻 Screens
 
 <p align="justify">
-<img height="400" width="600" src="https://user-images.githubusercontent.com/76626529/183626684-c98a7647-cb43-485f-aea2-dce70bf81e37.png">
-<img height="400" width="600" src="https://user-images.githubusercontent.com/76626529/183626686-c35858fe-5e8f-4721-be41-eb2df6215dbb.png">
-<img height="400" width="600" src="https://user-images.githubusercontent.com/76626529/183626687-185e1115-2050-4b9b-81c9-250520d24c7b.png">
-<img height="400" width="600" src="https://user-images.githubusercontent.com/76626529/183626692-bb0675e2-3422-41d8-b1c4-bafb20142d32.png">
-<img height="400" width="600" src="https://user-images.githubusercontent.com/76626529/183626693-819ea9fd-99d5-4e04-9630-f3004b382477.png">
-<img height="400" width="600" src="https://user-images.githubusercontent.com/76626529/183626676-9e3ea98a-182d-48eb-aa4d-4a0d3490af22.png">
+<img height="400" width="800" src="https://user-images.githubusercontent.com/76626529/183626684-c98a7647-cb43-485f-aea2-dce70bf81e37.png">
+<img height="400" width="800" src="https://user-images.githubusercontent.com/76626529/183626686-c35858fe-5e8f-4721-be41-eb2df6215dbb.png">
+<img height="400" width="800" src="https://user-images.githubusercontent.com/76626529/183626687-185e1115-2050-4b9b-81c9-250520d24c7b.png">
+<img height="400" width="800" src="https://user-images.githubusercontent.com/76626529/183626692-bb0675e2-3422-41d8-b1c4-bafb20142d32.png">
+<img height="400" width="800" src="https://user-images.githubusercontent.com/76626529/183626693-819ea9fd-99d5-4e04-9630-f3004b382477.png">
+<img height="400" width="800" src="https://user-images.githubusercontent.com/76626529/183626676-9e3ea98a-182d-48eb-aa4d-4a0d3490af22.png">
 </p>
 <br/>
 
